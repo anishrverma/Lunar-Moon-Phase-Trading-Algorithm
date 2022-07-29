@@ -7,6 +7,8 @@ This inspired me to make a very simple algorithm based on the lunar (moon) phase
 
 The trade logic is to buy on a full moon, sell on a new moon, and hold in-between. The fraction of your BTC that you buy / sell is defined in `parameters.py`. They are both currently set to 0.3 . The asset pair that you trade is also defined in `BTCBUSD`. You can change both at your leisure, but will need to change some labels in `main.py`.
 
+You'll need to input your api keys in the .env file to get this to work. Please see binance's documentation on how to do this [here](https://www.binance.com/en/support/faq/360002502072).
+
 The trading logic can be improved quite easily, just remember to treat this as a finite state machine.
 
 This project was inspired by [ibeandyy](https://github.com/ibeandyy/lunar_binance_bot).
